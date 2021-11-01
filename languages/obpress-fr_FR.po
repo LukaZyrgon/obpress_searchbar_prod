@@ -1,0 +1,124 @@
+# Copyright (C) 2020 Zyrgon.com
+# This file is distributed under the same license as the Obpress plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Obpress 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/obpress\n"
+"Last-Translator: \n"
+"Language-Team: French (France)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-17 08:53+0000\n"
+"PO-Revision-Date: 2021-05-17 12:01+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: obpress\n"
+"Language: fr_FR\n"
+"Plural-Forms: nplurals=2; plural=n > 1;\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1"
+
+#. Label above Hotels field
+msgid "Hotel"
+msgid_plural "Destination or Hotel"
+msgstr[0] "HÔTEL"
+msgstr[1] "DESTINATION OU HÔTEL"
+
+#. Placeholder for Hotels input field
+msgid "All Hotels"
+msgstr "Tous les hôtels"
+
+#. Label Above Calendar input
+msgid "DATES OF STAY"
+msgstr "DATES DE SÉJOUR"
+
+#. Label above Guests input field
+msgid "ROOMS AND GUESTS"
+msgstr "CHAMBRES ET PERSONNES"
+
+#. Room string in occupancy dropdown input field
+msgid "Room"
+msgstr "Chambre"
+
+#. Rooms string in occupancy dropdown input field
+msgid "Rooms"
+msgstr "Chambres"
+
+#. Guest string in occupancy dropdown input field
+msgid "Guest"
+msgstr "Client de l'hôtel"
+
+#. Guests string in occupancy dropdown input field
+msgid "Guests"
+msgstr "Personnes"
+
+#. Adults string in occupancy dropdown input field
+msgid "Adults"
+msgstr "Adultes"
+
+#. Children string in occupancy dropdown input field
+msgid "Children"
+msgstr "Enfants"
+
+#. 'to the' string in occupancy dropdown input field
+msgid "to the"
+msgstr "au"
+
+#. Years string in occupancy dropdown input field
+msgid "Years"
+msgstr "Années"
+
+#. Number of rooms string in occupancy dropdown input field
+msgid "NUMBER OF ROOMS"
+msgstr "NOMBRE DE CHAMBRES"
+
+#. Remove room string in occupancy dropdown input field
+msgid "Remove room"
+msgstr "Supprimer la salle"
+
+#. Remove room string in occupancy dropdown input field
+msgid "Incorrect Age"
+msgstr "Âge incorrect"
+
+#. Remove room string in occupancy dropdown input field
+msgid "Apply"
+msgstr "Appliquer"
+
+#. Label above Promo Code main input field
+msgid "I HAVE A CODE"
+msgstr "J'AI UN CODE"
+
+#. Label above Promo Code input field
+msgid "PROMO CODE"
+msgstr "CODE PROMOTIONNEL"
+
+#. Label above Group Code input field
+msgid "GROUP CODE"
+msgstr "COUPON DE GROUPE"
+
+#. Label above Loyalty Code input field
+msgid "LOYALTY CODE"
+msgstr "CARTE DE FIDÉLITÉ"
+
+#. Search button
+msgid "SEARCH"
+msgstr "CHERCHER"
+
+#. Strings for the Calendar
+msgid "Offers for you"
+msgstr "Offres pour vous"
+
+#. Strings for the Calendar
+msgid "Special Offer"
+msgstr "Offre spéciale"
+
+#. Strings for the Calendar
+msgid "*Price for 1 adult / 1 night"
+msgstr "*Prix pour 1 adulte / 1 nuit"
+
+#. Strings for the Calendar
+msgid "Night"
+msgstr "Nuit"
+
+#. Strings for the Calendar
+msgid "Nights"
+msgstr "Nuits"

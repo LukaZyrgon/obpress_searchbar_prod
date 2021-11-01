@@ -1,0 +1,590 @@
+/*
+ *  zyrgon-calendar.css alpha | http://zyrgon.com | (c) 2020
+ */
+.zcalendar-wrap{
+	overflow: hidden;
+}
+
+.zcalendar{
+	margin-left:auto;
+	margin-right:auto;	
+	background: #263237;
+	color:#fff;
+	position: relative;
+    z-index: 2;
+    width: 972px;
+    font-family: Montserrat;
+    display:none;
+    overflow:unset;
+	padding-top: 15px;
+}
+
+.zc-month-info{
+	text-align:center;	
+	margin-bottom: 30px;
+	height: 30px;
+	line-height: 30px;
+	vertical-align: middle;
+	font-weight: bold;
+	font-size:16px;	
+}
+
+.zc-month-name{
+	margin-right:5px; 
+	text-transform: capitalize;
+}
+
+.zc-btn {
+	background-color: transparent !important;
+	border-color:transparent !important;
+	color:inherit;
+	border-width: 1px;
+  	border-style: solid;
+	text-align: center;
+	vertical-align: middle;
+  	text-decoration: none;
+  	display: inline-block;
+  	margin: 0;
+	width: 26px;
+	color:inherit;
+	border-width: 0;
+  	height: 26px;
+  	font-size: 26px;
+  	cursor: pointer;
+  	user-select: none;
+  	padding:0;
+}
+
+.zc-btn-next {
+	background-image: url(../icons/chevron-right.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.zc-btn-prev {
+	background-image: url(../icons/chevron-left.svg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: contain;
+}
+
+.zc-btn img{
+	width:100%;
+	height: 100%;
+	vertical-align: top;
+}
+
+.zc-btn:focus{
+	outline:none;
+}
+
+.zc-btn-prev{
+	position: absolute;
+	top:30px;
+	left:50px;
+}
+
+.zc-btn-next{
+	position: absolute;
+	top: 30px;
+	right: 50px;
+}
+
+.zc-months{
+	width:auto;
+	margin-left: 40px;
+	margin-right: 40px;
+}
+
+.zc-months:after{
+	display: block;
+    content: "";
+    clear: both;
+}
+
+.zc-month {
+	width: 420px;
+	display: block;
+	float:left;
+	user-select: none;
+}
+
+.zc-month:nth-child(2){
+	float:right;
+}
+
+.zc-month:nth-child(2),.zc-month:nth-child(3),.zc-month:nth-child(4) {
+	display: none;
+}
+
+.zcalendar .zc-month:nth-child(2) {
+	display: block;
+}
+
+.zcalendar .zc-month:nth-child(3) {
+	display: none;
+}
+
+.zcalendar .zc-month:nth-child(4) {
+	display: none;
+}
+
+.zhs-calendar{
+	display:none;
+}
+
+
+
+.zc-date *{
+	-webkit-user-select: none; /* Safari */
+	-ms-user-select: none; /* IE 10+ and Edge */
+	user-select: none; /* Standard syntax */
+	pointer-events: none;
+}
+
+.zc-dates,.zc-weekdays {
+	user-select: none;
+	font-size:0px;
+	text-align:center;
+	vertical-align: baseline;
+}
+
+.zc-date,.zc-weekday{
+	font-size:16px;	
+	text-align:center;
+	display: inline-block;
+	width: 14.285%;
+
+	/*margin-top:6px;*/
+	padding:0px;
+
+	background: transparent;
+
+	border-width: 0px;
+	border-color: transparent;
+	border-style: solid;
+	border-bottom:1px solid rgba(174, 174, 174, 0.21);
+
+	vertical-align:top;
+}
+.zc-weekday {
+	font-size: 12px;
+	text-transform: uppercase;
+	margin-top:0px;
+	margin-bottom:6px;
+	border-color:transparent;
+}
+
+.zc-date .zc-date-inner{
+	width: 100%;
+	height: 49px;
+	margin-top:4.5px;
+	margin-bottom:5.5px;
+	border-width: 1px;
+	border-radius: 0px;
+	border-style: solid;
+	border-color:transparent;
+	background: transparent;
+  	width: 100%;
+
+}
+
+.zc-date-box {
+    width: 100%;
+	background: transparent;
+	text-align: center;
+	display: inline-block;
+	border-radius: 5px;
+	border: 1px solid transparent;
+}
+
+.zc-date-date{
+	font-size: 14px;
+  	font-weight: bold;
+	line-height:20px;
+	margin-top:4px;
+}
+
+.zc-date-price{
+	font-size: 12px;
+}
+
+
+.zc-date[data-disabled]{
+	cursor: not-allowed;
+	pointer-events: none;
+}
+
+/* dim out dates that are not in range, and that are disabled */
+.zc-date[data-disabled]:not([data-in-range]) .zc-date-box,.zc-date[data-disabled]:not([data-in-range]):hover .zc-date-box{
+	opacity: 0.5;
+}
+
+
+/*  When Costao disabled dates */
+.zc-date[data-gray] .zc-date-box,.zc-date[data-gray]:hover .zc-date-box{
+	opacity: 0.5;
+}
+
+
+
+/* in range wrap */
+.zc-date[data-in-range] .zc-date-inner{	
+	margin-left:0px;
+	margin-right:0px;
+	border-radius:0;
+	background-color: #d9d1c1;
+	width:100%;
+	color: #fff;
+}
+
+.zc-date .zc-date-inner{
+	position: relative;
+}
+
+.zc-date[data-start] .zc-date-inner:after {
+	background-color: #d9d1c1;
+    content: '';
+    position: absolute;
+    width: 12px;
+    right: -8px;
+    height: 49px;
+    top: -1px;
+    z-index: -1;	
+}
+
+.zc-date[data-end] .zc-date-inner:after{
+	content: '';
+	background-color: #d9d1c1;
+    position: absolute;
+    width: 12px;
+    left: -8px;
+    height: 49px;
+    top: -1px;
+    z-index: -1;	
+}
+
+.zc-date[data-in-range]:not([data-start]):not([data-end]):hover .zc-date-inner:after {
+	content: '';
+	background:  #d9d1c1;
+	position: absolute;
+	width:calc(49px + 15px);
+	top:-1px;
+    content: '';
+    position: absolute;
+    left: -8.5px;
+    height: 49px;
+    top: -1px;
+    z-index: -1;
+}
+
+
+.zc-date[data-start] .zc-date-inner,
+.zc-date[data-end] .zc-date-inner{
+	background-color: #BEAD8E;
+	box-shadow:unset;
+	border-color:transparent;
+	width: 49px;
+	margin-left:auto;
+	margin-right:auto;
+	color: #fff;
+}
+
+/* on hover */
+.zc-date[data-unix]:not([data-disabled]):hover,.zc-date[data-first] {
+	cursor: pointer;	
+}
+
+.zc-date[data-unix]:not([data-disabled]):hover .zc-date-inner,.zc-date[data-first] .zc-date-inner{
+	background-color: #BEAD8E;
+	color: #fff;
+}
+
+.zc-date[data-unix]:not([data-start]):not([data-end]):hover .zc-date-inner,.zc-date[data-first] .zc-date-inner{
+	width:  49px;
+	margin-left:auto;
+	margin-right:auto;
+	box-shadow: unset;
+}
+
+/* promo date a little dot is on zc-date-box */
+[data-promo="true"]{
+	position: relative;
+}
+
+[data-promo="true"] .zc-date-box:after{
+	content:'';
+	position: absolute;
+	background: #455A64;
+	top:4px;
+	right:10px;
+	border-radius:5px;
+	height: 6px;
+	width:6px;
+	z-index: 200;
+}
+
+[data-promo="true"]:hover .zc-date-box:after{
+	/*top:8px;*/
+	right:4px;
+}
+[data-promo="true"][data-in-range] .zc-date-box:after,
+[data-promo][data-unix]:hover .zc-date-box:after{
+	background: #FFF;
+}
+[data-promo="true"][data-start] .zc-date-box:after,
+[data-promo="true"][data-end] .zc-date-box:after
+{
+	right:5px;
+}
+
+.zc-info-bar{
+	font-size: 13px;
+	margin-top:17.5px;
+	margin-left:20.5px;
+	padding-bottom: 15px;
+    margin-bottom: 9px;
+    width: calc( 100% - 45px);
+}
+.zc-info-bar-promo{
+	content:'';
+	margin-left:40px;
+	height: 6px;
+	width:6px;
+	background: #455A64;
+	display: inline-block;
+    margin-bottom: 3px;
+    border-radius:5px;
+
+}
+
+/* TOOLTIPS */
+
+.zcalendar [data-title]{
+	position: relative;
+}
+
+
+
+.zcalendar [data-title]:after {
+	content: attr(data-title);
+	position: absolute;
+	z-index: 210;
+
+	color: #3c3c3c;
+	background: #eee;
+
+    width:150px;
+
+    line-height: 1rem;
+
+	pointer-events: none;
+    
+    opacity: 0;
+    visibility: hidden;
+
+	border-radius:5px;
+
+    text-align:center;
+    font-size:smaller;
+    white-space: nowrap;
+
+    padding:10px 5px;
+    left: calc(50% - 75px);
+    bottom: 63px;
+   
+}
+
+.zcalendar [data-title]:before{
+	content:'';
+	position: absolute;
+
+	height: 0px;
+	width: 0px;
+
+	
+	opacity: 0;
+    visibility: hidden;
+
+	border-color: #eee transparent;
+	border-style: solid;
+	border-width: 5px 5px 0px 5px;
+	
+	top:-5px;
+	left:calc(50% - 5px);
+
+	z-index: 200;
+}
+
+.zcalendar [data-title]:not([data-disabled]):hover:after,
+.zcalendar [data-title]:not([data-disabled]):hover:before {
+   	opacity: 1;
+    visibility: visible;
+}
+
+.zc-close{
+	position: absolute;
+	top:10px;
+	right:10px;
+	display: none;
+	cursor: pointer;
+	width:30px;
+	height:30px;
+	padding:7.5px;
+}
+.zc-close img{
+	width:15px;
+	height: 15px;
+}
+.as-cal-wrap{
+	position: relative;
+}
+#as-cal,.as-cal{
+	position: absolute;
+	margin-left:auto;
+	margin-right:auto;	
+	background: #1E2023;
+	color:#fff;
+	position: relative;
+	/*overflow: auto;*/
+    z-index: 2;
+    
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    font-family:"Open Sans",sans-serif;
+    display:none;
+    height: 490px;
+    width: 485px;
+    position: absolute;
+    left: -294px;
+    overflow:unset;
+    padding-top: 21px;
+}
+.as-cal {
+	left:15px;
+}
+
+#as-cal .zc-btn,.as-cal .zc-btn{
+	top: 20px;
+}
+
+/* between the bootstrap 120 and tablet mode */
+@media(max-width: 1199px)  and (min-width: 991px){
+	.zcalendar{
+		width:960px;
+	}
+
+}
+
+
+/*screen height small*/
+@media (max-height: 700px) {
+	.zc-date[data-end] .zc-date-inner:after,.zc-date[data-start] .zc-date-inner:after{
+		height: 45px;
+		width:15px;
+	}	
+	.zc-date .zc-date-inner{
+		height: 45px;
+		margin-top:2.5px;
+		margin-bottom:3.5px;
+	}
+
+	.zcalendar [data-title]:after  {
+		bottom:56px;
+	}
+}
+/*Screen width mobile mode */
+@media(max-width: 992px) {
+	[data-promo="true"] .zc-date-box:after{
+		right:4px;
+	}
+
+	.zcalendar{
+		position: fixed;
+		top: 0px;    
+	    right: 0px;
+	    left: 0px;	
+	    width:100%;
+	    z-index: 100;
+	    margin-top:0px;
+	    height: auto;
+	    /*height: 510px;*/
+	}
+
+	.zc-month{
+		width:320px;
+		float:none;		
+		margin-left:auto;
+		margin-right:auto;
+		margin-top: 50px;
+
+	}
+
+	.zc-weekday  {
+		font-size: 14px;
+	}
+
+	.zc-btn-prev , .zc-btn-next {
+		top:49px;
+	}
+
+	.zc-btn-prev  {
+		left: 40px;
+	}
+
+
+	.zc-btn-next  {
+		right: 40px;
+	}
+
+	.zc-month-info  {
+		margin-bottom: 40px;
+	}
+
+
+
+	.zcalendar .zc-month:nth-child(2){
+		display:none;
+
+	}
+
+	.zc-date[data-start] .zc-date-inner, .zc-date[data-end] .zc-date-inner{
+		width:41px;
+	}
+
+	.zc-date .zc-date-inner{
+		width:41px;
+		margin-left:auto;
+		margin-right:auto;
+	}
+	.zc-date[data-start] .zc-date-inner:after{
+		
+		width:15px;
+		right:-11px;
+	}	
+	.zc-date[data-end] .zc-date-inner:after{
+		width:15px;
+		left:-10px;
+	}
+	.zc-date[data-unix]:not([data-start]):not([data-end]):hover .zc-date-inner,.zc-date[data-first] .zc-date-inner{
+		
+		width:  41px;
+		
+	}
+	.zc-info-bar-promo{
+		margin-left:5px;
+		margin-bottom:5px;
+	}
+
+	.zc-close{
+		display:block;
+		top:0px;
+	}
+
+	.zc-months{
+		
+		margin-left:0;
+		margin-right:0;
+	}
+}

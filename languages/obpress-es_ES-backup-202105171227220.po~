@@ -1,0 +1,124 @@
+# Copyright (C) 2020 Zyrgon.com
+# This file is distributed under the same license as the Obpress plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Obpress 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/obpress\n"
+"Last-Translator: \n"
+"Language-Team: Spanish (Spain)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2021-05-17 08:53+0000\n"
+"PO-Revision-Date: 2021-05-17 12:03+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: obpress\n"
+"Language: es_ES\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1"
+
+#. Label above Hotels field
+msgid "Hotel"
+msgid_plural "Destination or Hotel"
+msgstr[0] ""
+msgstr[1] ""
+
+#. Placeholder for Hotels input field
+msgid "All Hotels"
+msgstr ""
+
+#. Label Above Calendar input
+msgid "DATES OF STAY"
+msgstr ""
+
+#. Label above Guests input field
+msgid "ROOMS AND GUESTS"
+msgstr ""
+
+#. Room string in occupancy dropdown input field
+msgid "Room"
+msgstr ""
+
+#. Rooms string in occupancy dropdown input field
+msgid "Rooms"
+msgstr ""
+
+#. Guest string in occupancy dropdown input field
+msgid "Guest"
+msgstr ""
+
+#. Guests string in occupancy dropdown input field
+msgid "Guests"
+msgstr ""
+
+#. Adults string in occupancy dropdown input field
+msgid "Adults"
+msgstr ""
+
+#. Children string in occupancy dropdown input field
+msgid "Children"
+msgstr ""
+
+#. 'to the' string in occupancy dropdown input field
+msgid "to the"
+msgstr ""
+
+#. Years string in occupancy dropdown input field
+msgid "Years"
+msgstr ""
+
+#. Number of rooms string in occupancy dropdown input field
+msgid "NUMBER OF ROOMS"
+msgstr ""
+
+#. Remove room string in occupancy dropdown input field
+msgid "Remove room"
+msgstr ""
+
+#. Remove room string in occupancy dropdown input field
+msgid "Incorrect Age"
+msgstr ""
+
+#. Remove room string in occupancy dropdown input field
+msgid "Apply"
+msgstr ""
+
+#. Label above Promo Code main input field
+msgid "I HAVE A CODE"
+msgstr ""
+
+#. Label above Promo Code input field
+msgid "PROMO CODE"
+msgstr ""
+
+#. Label above Group Code input field
+msgid "GROUP CODE"
+msgstr ""
+
+#. Label above Loyalty Code input field
+msgid "LOYALTY CODE"
+msgstr ""
+
+#. Search button
+msgid "SEARCH"
+msgstr ""
+
+#. Strings for the Calendar
+msgid "Offers for you"
+msgstr ""
+
+#. Strings for the Calendar
+msgid "Special Offer"
+msgstr ""
+
+#. Strings for the Calendar
+msgid "*Price for 1 adult / 1 night"
+msgstr ""
+
+#. Strings for the Calendar
+msgid "Night"
+msgstr ""
+
+#. Strings for the Calendar
+msgid "Nights"
+msgstr ""

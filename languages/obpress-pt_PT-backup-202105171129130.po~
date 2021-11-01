@@ -1,0 +1,100 @@
+# Copyright (C) 2020 Zyrgon.com
+# This file is distributed under the same license as the Obpress plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Obpress 1.0.0\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/obpress\n"
+"Last-Translator: \n"
+"Language-Team: Portuguese (Portugal)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-05-28T13:21:09+00:00\n"
+"PO-Revision-Date: 2021-05-17 11:29+0000\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Domain: obpress\n"
+"Language: pt_PT\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Loco-Version: 2.5.2; wp-5.7.1"
+
+#. Adults string in occupancy dropdown input field
+msgid "Adults"
+msgstr "Adultos"
+
+#. Placeholder for Hotels input field
+msgid "All Hotels"
+msgstr "Todos os Hotéis"
+
+#. Remove room string in occupancy dropdown input field
+msgid "Apply"
+msgstr "Aplicar"
+
+#. Children string in occupancy dropdown input field
+msgid "Children"
+msgstr "Crianças"
+
+#. Label Above Calendar input
+msgid "DATES OF STAY"
+msgstr "DATAS DA ESTADIA"
+
+#. Label above Group Code input field
+msgid "GROUP CODE"
+msgstr "CÓDIGO DE GRUPO"
+
+#. Guest string in occupancy dropdown input field
+msgid "Guest"
+msgstr "Hóspede"
+
+#. Guests string in occupancy dropdown input field
+msgid "Guests"
+msgstr "Hóspedes"
+
+#. Label above Hotels field
+msgid "Hotel"
+msgid_plural "Destination or Hotel"
+msgstr[0] "HOTEL"
+msgstr[1] "DESTINO OU HOTEL"
+
+#. Label above Promo Code main input field
+msgid "I HAVE A CODE"
+msgstr "TENHO UM CÓDIGO"
+
+#. Remove room string in occupancy dropdown input field
+msgid "Incorrect Age"
+msgstr "Idade Incorrecta"
+
+#. Label above Loyalty Code input field
+msgid "LOYALTY CODE"
+msgstr ""
+
+#. Number of rooms string in occupancy dropdown input field
+msgid "NUMBER OF ROOMS"
+msgstr "Nº DE QUARTOS"
+
+#. Label above Promo Code input field
+msgid "PROMO CODE"
+msgstr "CÓDIGO PROMOCIONAL"
+
+#. Remove room string in occupancy dropdown input field
+msgid "Remove room"
+msgstr "Remover quarto"
+
+#. Room string in occupancy dropdown input field
+msgid "Room"
+msgstr "Quarto"
+
+#. Rooms string in occupancy dropdown input field
+msgid "Rooms"
+msgstr "Quartos"
+
+#. Label above Guests input field
+msgid "ROOMS AND GUESTS"
+msgstr "QUARTOS E HÓSPEDES"
+
+#. 'to the' string in occupancy dropdown input field
+msgid "to the"
+msgstr "aos"
+
+#. Years string in occupancy dropdown input field
+msgid "Years"
+msgstr "Anos"
