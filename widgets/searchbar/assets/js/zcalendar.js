@@ -3,7 +3,7 @@ jQuery(window).on("elementor/frontend/init", function () {
   //always be 'default', so for example 'frontend/element_ready/slick-slider.default'
   //$scope is a jquery wrapped parent element
   elementorFrontend.hooks.addAction(
-    "frontend/element_ready/SpecialOffer.default",
+    "frontend/element_ready/Searchbar.default",
     function ($scope, $) {
 
       /*

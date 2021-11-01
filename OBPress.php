@@ -1,10 +1,10 @@
 <?php
 /*
-  Plugin name: OBPress_SearchBarPlugin by Zyrgon
+  Plugin name: OBPress_SearchBarPlugin by Omnibees
   Plugin uri: www.zyrgon.net
   Text Domain: OBPress_SearchBarPlugin
   Description: Widgets to OBPress
-  Version: 0.0.9
+  Version: 1.0.0
   Author: Zyrgon
   Author uri: www.zyrgon.net
   License: GPlv2 or Later
